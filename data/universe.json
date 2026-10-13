@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T08:00:48.283339+05:30",
+  "generated_at": "2026-10-13T20:00:47.465706+05:30",
   "definition": "NSE ranks 1-750 by full market cap = NIFTY 100 UNION NIFTY Midcap 150 UNION NIFTY Smallcap 250 UNION NIFTY Microcap 250 (== NIFTY Total Market)",
   "partition_verified": true,
   "counts": {
@@ -920,13 +920,6 @@
       "name": "Castrol India Ltd.",
       "industry": "Oil Gas & Consumable Fuels",
       "band": "Smallcap250"
-    },
-    {
-      "symbol": "CCAVENUE",
-      "yahoo": "CCAVENUE.NS",
-      "name": "AvenuesAI Ltd.",
-      "industry": "Financial Services",
-      "band": "Microcap250"
     },
     {
       "symbol": "CCL",
@@ -3580,6 +3573,13 @@
       "name": "Power Finance Corporation Ltd.",
       "industry": "Financial Services",
       "band": "Nifty100"
+    },
+    {
+      "symbol": "PFIZER",
+      "yahoo": "PFIZER.NS",
+      "name": "Pfizer Ltd.",
+      "industry": "Healthcare",
+      "band": "Microcap250"
     },
     {
       "symbol": "PFOCUS",
