@@ -5,7 +5,7 @@ cap, tracking how close each one is to its **44 EMA**, which side of it price
 sits on, the full EMA ladder, 52-week extremes, and the current Point & Figure
 column (X = demand, O = supply).
 
-Live: `https://abhijeetbishayee-drb.github.io/nifty-ema-board/`
+Live: `https://sectorchakra.github.io/nifty-ema-board/`
 
 ---
 
@@ -101,7 +101,7 @@ real cadence comes from an **external pinger (cron-job.org) calling the
 safety net for when the pinger dies.
 
 To wire it up: create a cron-job.org job hitting
-`POST https://api.github.com/repos/abhijeetbishayee-drb/nifty-ema-board/actions/workflows/refresh.yml/dispatches`
+`POST https://api.github.com/repos/sectorchakra/nifty-ema-board/actions/workflows/refresh.yml/dispatches`
 with `{"ref":"main"}` and a fine-grained PAT with Actions: write.
 
 ### The DAILY build needs the same treatment, for a different reason
@@ -118,7 +118,7 @@ Second job, same shape as the one above:
 
 | field | value |
 |---|---|
-| URL | `https://api.github.com/repos/abhijeetbishayee-drb/nifty-ema-board/actions/workflows/daily.yml/dispatches` |
+| URL | `https://api.github.com/repos/sectorchakra/nifty-ema-board/actions/workflows/daily.yml/dispatches` |
 | Method | `POST` |
 | Body | `{"ref":"main"}` |
 | Schedule | minute **30**, hours **8** and **20**, every day, timezone **Asia/Kolkata** |
