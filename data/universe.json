@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-14T08:00:43.155702+05:30",
+  "generated_at": "2026-11-14T20:00:48.535936+05:30",
   "definition": "NSE ranks 1-750 by full market cap = NIFTY 100 UNION NIFTY Midcap 150 UNION NIFTY Smallcap 250 UNION NIFTY Microcap 250 (== NIFTY Total Market)",
   "partition_verified": true,
   "counts": {
     "nifty100": 100,
     "midcap150": 150,
     "smallcap250": 251,
-    "microcap250": 253,
-    "raw_band": 754,
+    "microcap250": 252,
+    "raw_band": 753,
     "dummy_excluded": 2,
-    "tradeable_total": 752
+    "tradeable_total": 751
   },
   "dummy_excluded": [
     "DUMMYHEG",
@@ -2206,13 +2206,6 @@
       "name": "Indraprastha Gas Ltd.",
       "industry": "Oil Gas & Consumable Fuels",
       "band": "Smallcap250"
-    },
-    {
-      "symbol": "IGLSPIRITS",
-      "yahoo": "IGLSPIRITS.NS",
-      "name": "IGL Spirits Ltd.",
-      "industry": "Fast Moving Consumer Goods",
-      "band": "Microcap250"
     },
     {
       "symbol": "IIFL",
