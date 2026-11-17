@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-17T08:00:48.662479+05:30",
+  "generated_at": "2026-11-17T20:00:50.208659+05:30",
   "definition": "NSE ranks 1-750 by full market cap = NIFTY 100 UNION NIFTY Midcap 150 UNION NIFTY Smallcap 250 UNION NIFTY Microcap 250 (== NIFTY Total Market)",
   "partition_verified": true,
   "counts": {
     "nifty100": 100,
     "midcap150": 150,
     "smallcap250": 251,
-    "microcap250": 252,
-    "raw_band": 753,
+    "microcap250": 251,
+    "raw_band": 752,
     "dummy_excluded": 2,
-    "tradeable_total": 751
+    "tradeable_total": 750
   },
   "dummy_excluded": [
     "DUMMYHEG",
@@ -1499,13 +1499,6 @@
       "name": "Engineers India Ltd.",
       "industry": "Construction",
       "band": "Smallcap250"
-    },
-    {
-      "symbol": "ENNATURE",
-      "yahoo": "ENNATURE.NS",
-      "name": "Ennature Bio Pharma Ltd.",
-      "industry": "Healthcare",
-      "band": "Microcap250"
     },
     {
       "symbol": "ENRIN",
