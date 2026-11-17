@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T02:01:26.500284+05:30",
+  "generated_at": "2026-11-17T08:00:48.662479+05:30",
   "definition": "NSE ranks 1-750 by full market cap = NIFTY 100 UNION NIFTY Midcap 150 UNION NIFTY Smallcap 250 UNION NIFTY Microcap 250 (== NIFTY Total Market)",
   "partition_verified": true,
   "counts": {
