@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T08:00:42.094541+05:30",
+  "generated_at": "2026-11-27T20:00:51.885742+05:30",
   "definition": "NSE ranks 1-750 by full market cap = NIFTY 100 UNION NIFTY Midcap 150 UNION NIFTY Smallcap 250 UNION NIFTY Microcap 250 (== NIFTY Total Market)",
   "partition_verified": true,
   "counts": {
@@ -8,11 +8,10 @@
     "smallcap250": 251,
     "microcap250": 251,
     "raw_band": 752,
-    "dummy_excluded": 2,
-    "tradeable_total": 750
+    "dummy_excluded": 1,
+    "tradeable_total": 751
   },
   "dummy_excluded": [
-    "DUMMYHEG",
     "DUMMYINXGN"
   ],
   "stocks": [
@@ -1994,6 +1993,13 @@
       "symbol": "HEGAM",
       "yahoo": "HEGAM.NS",
       "name": "HEG Advanced Materials Ltd.",
+      "industry": "Capital Goods",
+      "band": "Smallcap250"
+    },
+    {
+      "symbol": "HEGRAPHITE",
+      "yahoo": "HEGRAPHITE.NS",
+      "name": "HEG Ltd.",
       "industry": "Capital Goods",
       "band": "Smallcap250"
     },
